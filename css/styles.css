@@ -1,275 +1,242 @@
 /* Estilos generales */
 /* Reset */
-*{
-    margin: 0;
-    padding: 0;
-    /*box-sizing: border-box;*/
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
 }
 
-html{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #74d7e2;
+html {
+  font-family: "Montserrat", sans-serif;
+  background-color: #74d7e2;
 }
 
-
-
-header{
-    background-color: #219aaa;
-    width: 100%;
-    height: 15%;
+header {
+  background-color: #219aaa;
+  width: 100%;
+  height: 15%;
 }
 
-header a img{
-    height: 120px;
-    padding: 10px;
-    float: left;
-    margin-left: 30px;
+header a img {
+  height: 120px;
+  padding: 10px;
+  float: left;
+  margin-left: 30px;
 }
 
-header nav{
-    padding: 10px;
-    overflow: hidden;
+header nav {
+  padding: 10px;
+  overflow: hidden;
 }
 
-header nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 35px 10px;
-    align-items: center;
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 35px 10px;
+  align-items: center;
 }
 
-header nav ul li{
-    
-    margin-right: 20px;
-    padding: 10px;
+header nav ul li {
+  margin-right: 20px;
+  padding: 10px;
 }
 
-header nav ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 25px;
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+header nav ul li a:hover {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
 }
 
-
-.esencia{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 15px;
-    flex: 1;
-    
-    
+.esencia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 15px;
+  flex: 1;
 }
 
-.esencia div{
-    width: 850px;
-    height: 900px;
-    padding-top: 20px;
-    
+.esencia div {
+  width: 850px;
+  height: 900px;
+  padding-top: 20px;
 }
 
-.esencia div img{
-    width: 100%;
-    height: 100%;
+.esencia div img {
+  width: 100%;
+  height: 100%;
 }
 
-.esencia-text{ 
-    float: right;
-    overflow: hidden;
-    
-    
+.esencia-text {
+  float: right;
+  overflow: hidden;
 }
 
-.textoEsencia{
-    font-size: 40px;
-    padding-top: 20px;
-    text-align: center;
+.textoEsencia {
+  font-size: 40px;
+  padding-top: 20px;
+  text-align: center;
 }
 
-.esencia-text p{
-    font-size: 25px;
-    text-align: justify;
-
+.esencia-text p {
+  font-size: 25px;
+  text-align: justify;
 }
 
-
-footer{
-    background-color: #219aaa;
-    width: 100%;
-    height: 10%;
-    display: inline-block;
-    text-align: center;
-    
-    
-     
+footer {
+  background-color: #219aaa;
+  width: 100%;
+  height: 10%;
+  display: inline-block;
+  text-align: center;
 }
 
-footer div img{
-    width: 50px;
-    margin: 20px;
-    
+footer div img {
+  width: 50px;
+  margin: 20px;
 }
 
 /* ----------------Contacto--------------- */
-
-
-form{
-    text-align: center;
-    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);;
-    height: 55%;
-    font-size: 30px;
-    border: solid 3px black;
-    display: inline-block;
-    width: 30%;
-    padding: 40px;
-    margin-left: 630px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 30px;
+form {
+  text-align: center;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  height: 55%;
+  font-size: 30px;
+  border: solid 3px black;
+  display: inline-block;
+  width: 30%;
+  padding: 40px;
+  margin-left: 630px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 30px;
 }
 
-form h1{
-    text-align: center;
-    margin-bottom: 30px;
+form h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-form div{
-    font-size: 20px;
-    margin-bottom: 10px;
-    width: 90%;
-    text-align: center;
+form div {
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 90%;
+  text-align: center;
 }
 
-form div input{
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 10px;
-    width: 100%;
+form div input {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
 }
 
-form div textarea{
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px;
+form div textarea {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
 }
 
-form input{
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 60px;
+form input {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 60px;
 }
 
 /* ----------------Galeria--------------- */
-
-.galeria{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 15px;
-    flex: 1;
-    
-    
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 15px;
+  flex: 1;
 }
 
-.textoGaleria{
-    text-align: center;
-    font-size: 40px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+.textoGaleria {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
-.galeria div{
-    width: 300px;
-    height: 300px;
-    padding: 20px;
+.galeria div {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
 }
 
-.galeria div img{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    border: inset 5px;
-
+.galeria div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: inset 5px;
 }
-
 
 @media (max-width: 550px) {
-    header a img{
-        height: 100px;
-        padding: 5px;
-        margin-left: 10px
-    }
-
-    header{
-        height: auto;
-    }
-
-    header nav ul{
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 25px 5px;
-        
-    }
-
-    header nav ul li a{
-        
-        font-size: 22px;
-    }
-
-    footer{
-        height: auto;
-    }
-
-    footer div img{
-        width: 40px;
-        margin: 10px;
-        
-    }
-
-    .esencia div{
-        width: 450px;
-        height: 500px;
-        padding-top: 20px;
-        
-    }
-    
-    .esencia div img{
-        width: 100%;
-        height: 100%;
-    }
-    
-    
-    .textoEsencia{
-        font-size: 25px;
-        padding-top: 10px;
-        text-align: center;
-    }
-    
-    .esencia-text p{
-        font-size: 18px;
-        text-align: justify;
-    }
-
-    .textoGaleria{
-        text-align: center;
-        font-size: 25px;
-        padding-bottom: 10px;
-        padding-top: 15px;
-    }
-
-    .galeria div{
-        width: 120px;
-        height: 120px;
-        padding: 8px;
-    }
-    
-    .galeria div img{
-        border-radius: 10px;
-        border: inset 3px;
-    
-    }
+  header a img {
+    height: 100px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  header {
+    height: auto;
+  }
+  header nav ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px 5px;
+  }
+  header nav ul li a {
+    font-size: 22px;
+  }
+  footer {
+    height: auto;
+  }
+  footer div img {
+    width: 40px;
+    margin: 10px;
+  }
+  .esencia div {
+    width: 450px;
+    height: 500px;
+    padding-top: 20px;
+  }
+  .esencia div img {
+    width: 100%;
+    height: 100%;
+  }
+  .textoEsencia {
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .esencia-text p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .textoGaleria {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+  .galeria div {
+    width: 120px;
+    height: 120px;
+    padding: 8px;
+  }
+  .galeria div img {
+    border-radius: 10px;
+    border: inset 3px;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */
