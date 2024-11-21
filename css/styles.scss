@@ -1,3 +1,6 @@
+@import "contacto";
+@import "galeria";
+
 /* Estilos generales */
 /* Reset */
 *{
@@ -82,9 +85,8 @@ header nav ul li a{
 
 .esencia-text{ 
     float: right;
-    overflow: hidden;
     
-    
+        
 }
 
 .textoEsencia{
@@ -117,7 +119,7 @@ footer div img{
     
 }
 
-/* ----------------Contacto--------------- */
+/* ----------------Contacto--------------- 
 
 
 form{
@@ -165,9 +167,9 @@ form input{
     border-radius: 5px;
     padding: 5px;
     margin-right: 60px;
-}
+}*/
 
-/* ----------------Galeria--------------- */
+/* ----------------Galeria--------------- 
 
 .galeria{
     display: flex;
@@ -199,7 +201,7 @@ form input{
     border-radius: 20px;
     border: inset 5px;
 
-}
+}*/
 
 
 @media (max-width: 550px) {
@@ -235,9 +237,10 @@ form input{
         
     }
 
+    
     .esencia div{
         width: 450px;
-        height: 500px;
+        height: auto;
         padding-top: 20px;
         
     }
@@ -254,8 +257,9 @@ form input{
         text-align: center;
     }
     
+        
     .esencia-text p{
-        font-size: 18px;
+        font-size: 19px;
         text-align: justify;
     }
 
@@ -267,8 +271,8 @@ form input{
     }
 
     .galeria div{
-        width: 120px;
-        height: 120px;
+        width: 100%;
+        height: auto;
         padding: 8px;
     }
     
