@@ -6,7 +6,7 @@
 *{
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
+    
 }
 
 html{
@@ -19,7 +19,33 @@ html{
 header{
     background-color: #219aaa;
     width: 100%;
-    height: 15%;
+    height: 15%;    
+    nav{
+        padding: 10px;
+        overflow: hidden;
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            padding: 35px 10px;
+            align-items: center;
+            li{
+    
+                margin-right: 20px;
+                padding: 10px;
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 25px;
+                    &:hover{
+                        color: black;
+                        font-size: 35px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
 }
 
 header a img{
@@ -29,35 +55,7 @@ header a img{
     margin-left: 30px;
 }
 
-header nav{
-    padding: 10px;
-    overflow: hidden;
-}
 
-header nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 35px 10px;
-    align-items: center;
-}
-
-header nav ul li{
-    
-    margin-right: 20px;
-    padding: 10px;
-}
-
-header nav ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 25px;
-    &:hover{
-        color: black;
-        font-size: 35px;
-        font-weight: bold;
-    }
-}
 
 
 .esencia{
@@ -67,21 +65,20 @@ header nav ul li a{
     align-items: flex-start;
     padding: 15px;
     flex: 1;
+    div{
+        width: 850px;
+        height: 900px;
+        padding-top: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        
+    }
     
     
 }
 
-.esencia div{
-    width: 850px;
-    height: 900px;
-    padding-top: 20px;
-    
-}
-
-.esencia div img{
-    width: 100%;
-    height: 100%;
-}
 
 .esencia-text{ 
     float: right;

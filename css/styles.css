@@ -4,10 +4,12 @@ form {
   height: auto;
   font-size: 30px;
   border: solid 3px black;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
   padding: 40px;
-  margin-left: 630px;
+  margin-left: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
   border-radius: 30px;
@@ -20,7 +22,7 @@ form h1 {
 
 form div {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   width: 90%;
   text-align: center;
 }
@@ -36,13 +38,13 @@ form div textarea {
   font-size: 20px;
   border-radius: 5px;
   padding: 5px;
+  width: 100%;
 }
 
 form input {
   font-size: 20px;
   border-radius: 5px;
   padding: 5px;
-  margin-right: 60px;
 }
 
 .galeria {
@@ -82,7 +84,6 @@ form input {
 * {
   margin: 0;
   padding: 0;
-  /*box-sizing: border-box;*/
 }
 
 html {
@@ -95,19 +96,10 @@ header {
   width: 100%;
   height: 15%;
 }
-
-header a img {
-  height: 120px;
-  padding: 10px;
-  float: left;
-  margin-left: 30px;
-}
-
 header nav {
   padding: 10px;
   overflow: hidden;
 }
-
 header nav ul {
   display: flex;
   list-style: none;
@@ -115,12 +107,10 @@ header nav ul {
   padding: 35px 10px;
   align-items: center;
 }
-
 header nav ul li {
   margin-right: 20px;
   padding: 10px;
 }
-
 header nav ul li a {
   text-decoration: none;
   color: #ffffff;
@@ -132,6 +122,13 @@ header nav ul li a:hover {
   font-weight: bold;
 }
 
+header a img {
+  height: 120px;
+  padding: 10px;
+  float: left;
+  margin-left: 30px;
+}
+
 .esencia {
   display: flex;
   flex-wrap: wrap;
@@ -140,13 +137,11 @@ header nav ul li a:hover {
   padding: 15px;
   flex: 1;
 }
-
 .esencia div {
   width: 850px;
   height: 900px;
   padding-top: 20px;
 }
-
 .esencia div img {
   width: 100%;
   height: 100%;
