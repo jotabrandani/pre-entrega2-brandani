@@ -1,6 +1,5 @@
 
 
-
 form{
     text-align: center;
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);;
@@ -12,13 +11,15 @@ form{
     align-items: center;
     width: 30%;
     padding: 40px;
-    margin-left: 40px;
+    margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 30px;
+    flex: 1;
 }
 
 form h1{
+    font-size: 60px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -48,5 +49,5 @@ form input{
     font-size: 20px;
     border-radius: 5px;
     padding: 5px;
-    
+        
 }
